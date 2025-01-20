@@ -5,13 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizz JS</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    
+    <h1><span>Quizz</span> Culture Général</h1>
 
+    <div class="global-container">
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>Qui est sacré champion de France</h4>
+          <div>
+            <input type="radio" id="clovis" name="q1" value="a" checked />
+            <label for="clovis">Clovis</label>
+          </div>
+          <div>
+            <input type="radio" id="linkoln" name="q1" value="b"/>
+            <label for="linkoln">linkoln</label>
+          </div>
+          <div>
+            <input type="radio" id="frero" name="q1" value="c"/>
+            <label for="frero">frero</label>
+          </div>
+          <div>
+            <input type="radio" id="notice" name="q1" value="c"/>
+            <label for="notice">notice</label>
+          </div>
+        </div>
+        <button type="submit">VALIDER</button>
+      </form>
+      <div class="results">Cliquer sur <span>valider</span> pour voir les <span> résultats</span></div>
+      <p class="mark"></p>
+      <p class="help"></p>
+    </div>
+    
+    
     <script src="app.js"></script>
   </body>
 </html>
