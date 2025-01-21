@@ -154,7 +154,7 @@ console.log(tableau)
   for (const key in tableau) {
     nbreReponse=nbreReponse+1;
     // Si réponse juste
-    if (tableau[key][1] == reponse[key][1]) {
+    if (tableau[key][1] === reponse[key][1]) {
         bonneReponse=bonneReponse+1;
       // on récupère le input du DOM en question :
       const divJuste = document.querySelector(
